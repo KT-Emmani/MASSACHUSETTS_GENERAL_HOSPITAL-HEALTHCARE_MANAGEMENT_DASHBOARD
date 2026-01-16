@@ -8,6 +8,8 @@
 
 - [Tools Used](#tool-used)
 
+- [Exploratory Data Analysis](exploratory-data-analysis)
+
 - [Dashboard & Key Features](#dashboard-&-key-features)
 
 - [Key Insights](#key-insights)
@@ -42,6 +44,74 @@ Dataset can be found in Maven Analytics: [download](https://mavenanalytics.io/da
 - Excel & SQL - Data Cleaning & Manipulation
 
 - Power Bi - Visualization
+
+
+## Exploratory Data Analysis
+The dataset captures hospital operations across patients, encounters, procedures, insurance coverage, and financial transactions over a one-year period.
+
+### Core Metrics Observed
+
+- Total Patients: 974
+- Total Encounters: 27,891
+- Total Procedures: 47,701
+- Readmitted Patients: 854
+- Total Billings: $101.51M
+- Total Claims: $52.26M
+- Unresolved Payments: $21.16M
+
+The data is structured around time (monthly & weekly), encounter class, patient demographics, and payer information, enabling multi-dimensional analysis.
+
+### Patient Demographics Analysis
+
+#### Gender Distribution
+- Male: 50.72% (494)
+- Female: 49.28% (480)
+
+📌 Insight: Gender distribution is balanced, indicating minimal gender bias in patient intake.
+
+#### Age Distribution
+- Majority of patients fall within 61–75 and 76–120 age groups.
+- Average patient age: 73 years.
+
+📌 Insight: The hospital predominantly serves an elderly population, suggesting higher demand for chronic care, follow-ups, and repeat encounters.
+
+#### Race Distribution
+
+- White patients make up the majority with a total number of 680 patients.
+- Minority groups (Black, Asian, Hispanic, Native) represent significantly smaller proportions.
+
+📌 Insight: Demographic skew may indicate geographic population patterns or potential access disparities worth deeper investigation.
+
+### Encounter & Procedure Analysis
+
+#### Monthly Trends
+- Encounters and procedures remain consistently high throughout the year
+- Peaks observed around March, July, and October 
+- Procedures consistently exceed encounters, indicating multiple procedures per visit
+
+📌 Insight: Stable utilization suggests predictable operational demand with mild seasonal variation.
+
+#### Encounter Class Distribution
+
+Top encounter classes by volume:
+
+- Ambulatory - 12,537 encounters
+- Outpatient - 6,300 encounters 
+- Urgent Care - 3,666 encounters
+- Emergency - 2,322 encounters
+- Wellness - 1,931 encounters
+- Inpatient - 1,135 encounters
+
+📌 Insight: The hospital functions primarily as an outpatient and ambulatory care center, reducing inpatient congestion but increasing high-frequency visits.
+
+
+Weekly Encounter Patterns
+
+Ambulatory and outpatient encounters dominate weekly volume
+
+Emergency and inpatient encounters remain comparatively stable
+
+📌 Insight: Weekly patterns suggest staffing and resource planning can be optimized around ambulatory demand.
 
 
 ## Dashboard & Key Features
