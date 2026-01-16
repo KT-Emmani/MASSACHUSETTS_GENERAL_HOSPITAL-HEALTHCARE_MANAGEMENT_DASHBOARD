@@ -10,7 +10,11 @@
 
 - [Dashboard & Key Features](#dashboard-&-key-features)
 
-- [Key Strategic Insights](#key-strategic-insights)
+- [Key Insights](#key-insights)
+
+- [Value Delivered](#value-delivered)
+
+- [Skills Demostrated](#skills-delivered)
 
 
 
@@ -59,177 +63,101 @@ Provides a snapshot of hospital activity and patient distribution:
 
 <img width="2408" height="1471" alt="Paitent Overview" src="https://github.com/user-attachments/assets/29a8ff5f-1dbc-4ce2-bd9e-0a48299f6d6e" />
 
-## Exploratory Data Analysis
 
-### 📊 1. Overall Business Performance
 
-First Quarter:
+### Patient Insights Dashboard
 
-- Total Sales = $ 159.22k
-  
-- Total Orders = 5,343
-  
-- Total Quantity Sold = 12,097
+Focuses on utilization and operational efficiency:
 
+- Average length of encounters and procedures
 
-### 🍽️ 2. Menu Category Performance
+- Average patient age and patient status (alive vs. deceased)
 
-#### Sales by Category: 
+- Encounter trends by type and class (weekly and monthly)
 
-- Italian is the top-selling category ($ 49.46K).
+- Most frequent encounter types and procedures
 
-- Asian follows closely ($ 46.72K).
+- Insurance provider analysis, highlighting coverage gaps
 
-- Mexican ($ 34.80K) and American ($ 28.24K) trail behind.
+#### 🎯Impact: 
+ Helps operations teams identify high-demand services, utilization patterns, and insurance-related risks.
 
+ 
+<img width="2419" height="1471" alt="Patient Insight" src="https://github.com/user-attachments/assets/82144784-f86b-4033-b533-a0beb27cfb75" />
 
-#### Orders by Category:
 
-- Asian leads in order volume (2,635 orders)
+### Patient Information Dashboard
 
-- Italian (2,292 orders)
+Delivers a patient-level drill-down view:
 
-- Mexican (2,266 orders)
+- Individual patient demographics and encounter history
 
-- American (2,152 orders)
+- Encounter class distribution (ambulatory vs. outpatient)
 
+- Procedure count, time spent, and total claim cost
 
-#### Quantity Sold by Category:
+- Monthly encounter and procedure activity
 
-- Asian dishes sold the most units (3,470 dishes)
+### 🎯 Impact: 
+ Supports clinical and administrative staff in reviewing patient histories and cost profiles efficiently.
+ 
+ 
+ <img width="2441" height="1468" alt="Gender Info" src="https://github.com/user-attachments/assets/81e8c140-dfdf-4fbb-ba8a-163bf5bf2eab" />
 
-- Italian (2,948 dishes)
 
-- Mexican (2,945 dishes)
 
-- American (2,734 dishes)
+<img width="2424" height="1465" alt="Encounter" src="https://github.com/user-attachments/assets/a523a1f8-94e8-42e4-ba42-0509db14b117" />
 
-➡️ Italian is the top performer in both sales and orders, but Asian wins in total quantity sold — suggesting many lower-priced, higher-frequency dishes.
 
+### Financial Insights Dashboard
 
-### 🍛 3. Top 5 Performing Dishes
+Analyzes hospital revenue and billing performance:
 
-#### By Sales:
+- Total billings, claims, payer coverage, and unresolved payments
 
-- Korean Beef Bowl — $ 10.55K
+- Monthly billing trends
 
-- Spaghetti & Meatballs — $ 8.44K
+- Claims distribution by encounter class
 
-- Tofu Pad Thai — $ 8.15K
+- Top insurance payers by total claims and payments received
 
-- Cheeseburger — $ 8.13K
-  
-- Hamburger — $ 8.05K
+- Readmission-related billing impact
 
+#### 🎯 Impact: 
+ Enables finance teams to monitor revenue streams, identify unpaid claims, and evaluate payer performance.
 
-#### By Orders:
+ 
+<img width="2442" height="1473" alt="Financial" src="https://github.com/user-attachments/assets/523baa52-4fd4-4d11-b5c4-dd46b8e250e0" />
 
-- Hamburger — 595
 
-- Korean Beef Bowl — 566
+## Key Insights
 
-- Cheeseburger — 559
+- Ambulatory and outpatient encounters account for the highest patient volume and billing activity.
 
-- Tofu Pad Thai — 542
+- Readmissions contribute significantly to unresolved claims and financial risk.
 
-- Spaghetti & Meatballs — 460
+- Insurance coverage varies widely, with a notable portion of encounters tied to non-insured or underinsured patients.
 
+- Seasonal patterns exist in encounter and billing volumes, informing staffing and resource planning.
 
+## Value Delivered
 
-#### By Quantity Sold:
+- Centralized patient, operational, and financial data into a single analytics platform.
 
-- Hamburger — 622
+- Improved visibility into hospital performance and patient care trends.
 
-- Korean Beef Bowl — 588
+- Enabled data-driven decisions for resource allocation, cost control, and patient management.
 
-- Cheeseburger — 583
+- Demonstrated strong capabilities in data modeling, dashboard design, and healthcare analytics.
 
-- Tofu Pad Thai — 562
+## Skills Demonstrated
 
-- Spaghetti & Meatballs — 470
+- Healthcare data analysis.
 
-➡️ Hamburger is the most consistently ordered and consumed dish, though it is not the highest revenue generator.
+- Data modeling and KPI development.
 
-➡️ Korean Beef Bowl generates the most revenue, suggesting a higher price point.
+- Interactive dashboard design in Power BI.
 
+- Translating complex datasets into executive-level insights.
 
-
-### ⏰ 4. Time-Based Buying Patterns
-
-
-#### Sales Patterns
-
- Highest total sales occur between:
-
- -> 12 pm – 12:59 pm (lunch rush)
-
- -> 5 pm – 6:59 pm (dinner rush)
-
-Sales dip sharply late at night (after 9 pm).
-
-
-#### Orders by Time
-
- Peak order volumes are:
-
- -> 12 pm – 12:59 pm (most active hour)
-
- -> 5 pm – 6 pm
-
- -> 6 pm – 7 pm
-
-
-#### Quantity Sold by Time
-
- Mirrors order patterns:
-
- -> 12 pm – 2 pm dominates sales and order volume.
-
- -> Moderate dinner spike again around 5 pm – 7 pm.
-
-➡️ Midday lunch hours are the most profitable and busiest. Dinner is the second major peak.
-
-
-
-### 💲 5. Price Distribution Insights
-
-Most items sold fall in the $12 – $18 price range.
-
--> $12 - $15 range has the highest count (4,219).
-
--> $15 - $18 range next (3,497 ).
-
-➡️ Your pricing sweet spot is between $12 – $18 — this is where customers buy the most.
-
-
-## Key Strategic Insights
-
-
-1️⃣ Optimize Around Peak Hours
-
-Focus staffing, inventory, and promotions around 12–2 pm and 5–7 pm.
-
-
-2️⃣ Leverage High-Performing Categories
-
-Italian and Asian drive most revenue/volume.
-
-Consider:
-
-Adding variations to top categories
-
-Running promotions to lift the weaker American segment
-
-
-3️⃣ Flagship Items Identified
-
-Korean Beef Bowl (high revenue dish)
-
-Hamburger (high volume dish)
-
-Promote as signature dishes or bundle them.
-
-
-4️⃣ Pricing Strategy is Working
-
-Majority of orders fall in the $12 – $18 window—keep core menu pricing here.
+- Business storytelling with data.
