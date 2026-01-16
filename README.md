@@ -12,8 +12,6 @@
 
 - [Dashboard & Key Features](#dashboard-&-key-features)
 
-- [Key Insights](#key-insights)
-
 - [Value Delivered](#value-delivered)
 
 - [Skills Demostrated](#skills-delivered)
@@ -85,9 +83,9 @@ The data is structured around time (monthly & weekly), encounter class, patient 
 ### Encounter & Procedure Analysis
 
 #### Monthly Trends
-- Encounters and procedures remain consistently high throughout the year
-- Peaks observed around March, July, and October 
-- Procedures consistently exceed encounters, indicating multiple procedures per visit
+- Encounters and procedures remain consistently high throughout the year.
+- Peaks observed around March, July, and October.
+- Procedures consistently exceed encounters, indicating multiple procedures per visit.
 
 📌 Insight: Stable utilization suggests predictable operational demand with mild seasonal variation.
 
@@ -105,14 +103,73 @@ Top encounter classes by volume:
 📌 Insight: The hospital functions primarily as an outpatient and ambulatory care center, reducing inpatient congestion but increasing high-frequency visits.
 
 
-Weekly Encounter Patterns
+#### Weekly Encounter Patterns
 
-Ambulatory and outpatient encounters dominate weekly volume
-
-Emergency and inpatient encounters remain comparatively stable
+- Ambulatory and outpatient encounters dominate weekly volume.
+- Emergency and inpatient encounters remain comparatively stable.
 
 📌 Insight: Weekly patterns suggest staffing and resource planning can be optimized around ambulatory demand.
 
+### Readmission Analysis
+
+- Readmitted Patients - 854 (88% of total patients).
+- Readmissions contribute significantly to repeat encounters and billing volume.
+
+📌 Insight: High readmission rate may point to:
+   - Chronic disease prevalence.
+   - Gaps in post-discharge care.
+   - Opportunities for preventive intervention programs.
+
+### Insurance & Payer Analysis
+
+#### Insurance Coverage
+- No Insurance cover represents the largest category.
+- Followed by Medicare and Medicaid.
+- Private insurers contribute smaller shares.
+
+📌 Insight: Heavy reliance on public insurance and uninsured patients increases financial risk and unresolved claims.
+
+#### Top Payers by Claims
+- Medicare and Medicaid generate high claim volumes but lower reimbursement rates.
+- Uninsured patients contribute minimal payment despite high service utilization.
+
+📌 Insight: Payer mix directly impacts cash flow and claim resolution timelines.
+
+### Financial Analysis
+
+#### Billing Overview
+- Total Bill: $101.51M
+- Total Claims: $52.26M
+- Total Coverage: $31.10M
+- Unresolved Payments: $21.16M
+
+📌 Insight: Over 20% of billed amounts remain unresolved, posing a major revenue leakage risk.
+
+#### Billing by Encounter Class
+- Ambulatory & Outpatient encounters generate the highest billing.
+- Inpatient and Emergency encounters have higher cost per visit but lower volume.
+
+📌 Insight: High-volume, low-margin services dominate revenue streams.
+
+#### Readmission Financial Impact
+- One-time patients account for a large share of total billing - 101.51m (50.1%).
+- Readmitted patients contribute comparatively less revenue - 101.1m (49.9%).
+
+📌 Insight: Reducing readmissions could significantly improve cost efficiency and patient outcomes.
+
+### EDA Summary & Business Implications
+
+#### Key Findings
+- Elderly patients dominate hospital utilization.
+- Ambulatory and outpatient encounters drive volume and revenue.
+- Readmissions significantly affect operational load and finances.
+- Insurance mix creates financial risk due to high uninsured and public payer reliance.
+
+#### Opportunities Identified
+- Readmission reduction programs.
+- Preventive care for high-risk age groups.
+- Insurance optimization and claim follow-up strategies.
+- Staffing optimization based on encounter class trends.
 
 ## Dashboard & Key Features
 
@@ -200,15 +257,6 @@ Analyzes hospital revenue and billing performance:
 <img width="2442" height="1473" alt="Financial" src="https://github.com/user-attachments/assets/523baa52-4fd4-4d11-b5c4-dd46b8e250e0" />
 
 
-## Key Insights
-
-- Ambulatory and outpatient encounters account for the highest patient volume and billing activity.
-
-- Readmissions contribute significantly to unresolved claims and financial risk.
-
-- Insurance coverage varies widely, with a notable portion of encounters tied to non-insured or underinsured patients.
-
-- Seasonal patterns exist in encounter and billing volumes, informing staffing and resource planning.
 
 ## Value Delivered
 
