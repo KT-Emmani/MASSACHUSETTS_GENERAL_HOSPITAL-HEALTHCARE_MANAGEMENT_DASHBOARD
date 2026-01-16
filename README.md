@@ -55,6 +55,7 @@ The dataset captures hospital operations across patients, encounters, procedures
 - Readmitted Patients: 854
 - Total Billings: $101.51M
 - Total Claims: $52.26M
+- Total Coverage: $31.10M
 - Unresolved Payments: $21.16M
 
 The data is structured around time (monthly & weekly), encounter class, patient demographics, and payer information, enabling multi-dimensional analysis.
